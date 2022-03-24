@@ -109,8 +109,9 @@ main .main__container
     display:flex;
     flex-direction: column;
     margin-top: 10rem;
-    align-items: center;  
+    align-items: center;
 }
+
 main .main__container .main__title__container p
 {   
    color: var(--white);
@@ -121,7 +122,10 @@ main .main__container .main__title__container p
    text-shadow: -2px 1px 2px var(--green-aqua),
    -2px 1px 3px #cfe93d,
    -2px 1px 4px #e2dde2;
+ 
 }
+
+
 main .main__container button
 {
     background-color: var(--blue-dark);
