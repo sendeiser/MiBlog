@@ -130,7 +130,7 @@ main .main__container button
 }
 main .main__container button:hover
 {
-    color:var(--white);
+    color:var(--blue-dark);
     background-color: var(--green-aqua);
     font-size: 1.6rem;
 }
