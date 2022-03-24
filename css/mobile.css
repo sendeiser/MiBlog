@@ -3,12 +3,6 @@ body
     display: flex;
     flex-direction: column-reverse;
 }
-body p::selection,
-body a::selection
-{
-    background-color: #4D77FF;
-    color:#F2FA5A;
-}
 main
 {
     margin-top: calc(-90px - 7rem);

@@ -19,6 +19,12 @@ body
     right: 0;
     left: 0;
 }
+body p::selection,
+body a::selection
+{
+    background-color: #4D77FF;
+    color:#F2FA5A;
+}
 a
 {
     text-decoration: none;
