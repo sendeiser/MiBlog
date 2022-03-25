@@ -10,6 +10,6 @@ const typed = new Typed('.typed',{
 	loop: true, // Repetir el array de strings
 	loopCount: false, // Cantidad de veces a repetir el array.  false = infinite
 	showCursor: true, // Mostrar cursor palpitanto
-	cursorChar: '|', // Caracter para el cursor
+	cursorChar: '', // Caracter para el cursor
 	contentType: null, // 'html' o 'null' para texto sin formato
 })

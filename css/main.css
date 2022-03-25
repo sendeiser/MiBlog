@@ -5,12 +5,14 @@
     --white:#fff;
     --white-yellow:#4D96FF;
 }
+@import url(‘https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap’);
 html
 {
     font-size: 62.5%; 
 }
 body
 {
+    font-family: 'Roboto mono', monospace;
     padding: 0;
     margin: 0;
     position: fixed;
@@ -121,7 +123,7 @@ main .main__container
 main .main__container .main__title__container p
 {   
    color: var(--white);
-   font-size: 5rem;
+   font-size: 7rem;
    line-height: 6rem;
    letter-spacing:.2rem;
    text-align: center;
@@ -139,7 +141,9 @@ main .main__container button
     border:none;
     padding: 2rem;
     letter-spacing:.5rem;
-    font-weight: 800;
+    font-family: 'Roboto mono', monospace;
+    font-weight: 900;
+    font-size: 1.5rem;
     width: 160px;
     margin-top: 6rem;
     text-shadow: -1px 1px 8px var(--green-aqua);
@@ -152,7 +156,7 @@ main .main__container button:hover
 {
     color:var(--blue-dark);
     background-color: var(--green-aqua);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     border: 1px solid var(--blue-dark);
     box-shadow: -2px 1px 2px var(--blue-dark),
     -2px 1px 3px #4e3de9,
