@@ -1,6 +1,6 @@
 :root
 {
-    --blue-dark:#131f3a;
+    --blue-dark:#0a193f;
     --green-aqua:#00FFDD;
     --white:#fff;
     --white-yellow:#4D96FF;
@@ -47,6 +47,9 @@ header .header__icons__container
     display: grid;
     background-color:var(--blue-dark); 
     justify-items: end;
+    box-shadow: 2px 2px 5px var(--blue-dark),
+    3px 3px 6px var(--blue-dark);
+    z-index:1;
 }
 header .header__icons__container .icons
 {
@@ -69,8 +72,8 @@ nav
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 90px;
-    background-color:rgba(8, 6, 175, 0.055);
-    box-shadow: 0px 0px 1px #fff;
+    background-color:rgba(9, 6, 175, 0.06);
+    box-shadow: 1px 0px 1px #fff;
     z-index: 1;
 }
 nav .nav__logo__container
@@ -105,7 +108,7 @@ main
     width: 100%;
     display: flex;
     justify-content: center;
-    background: url('../assets/img/index.png') center/cover no-repeat;
+    background: url('../assets/img/texture.png') center/100% 100% no-repeat;
 }
 main .main__container
 {
@@ -131,16 +134,16 @@ main .main__container .main__title__container p
 
 main .main__container button
 {
-    background-color: var(--blue-dark);
+    background-color: rgba(45, 16, 150, 0.5);
     color:var(--green-aqua);
     border:none;
     padding: 2rem;
     letter-spacing:.5rem;
-    font-weight: 600;
+    font-weight: 800;
     width: 160px;
     margin-top: 6rem;
     text-shadow: -1px 1px 8px var(--green-aqua);
-    box-shadow: -2px 1px 2px var(--green-aqua),
+    box-shadow: -2px 1px 5px var(--green-aqua),
     -2px 1px 3px #cfe93d,
     -2px 1px 4px #e2dde2;
     ;
@@ -149,5 +152,9 @@ main .main__container button:hover
 {
     color:var(--blue-dark);
     background-color: var(--green-aqua);
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    border: 1px solid var(--blue-dark);
+    box-shadow: -2px 1px 2px var(--blue-dark),
+    -2px 1px 3px #4e3de9,
+    -2px 1px 4px #826aeb;
 }
