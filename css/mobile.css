@@ -41,7 +41,8 @@ nav .profile-link
 {
     margin-right: 20px;
 }
-header .header__icons__container .icons {
+header .header__icons__container .icons 
+{
    
     margin-right: 15px; 
 }
