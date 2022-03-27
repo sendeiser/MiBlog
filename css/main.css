@@ -44,9 +44,7 @@ a
 header
 {
     width: 100%;
-    height: 50px;
-    display: grid;
-    grid-template-rows:1fr 1fr;   
+    height: 50px;  
 }
 header .header__icons__container
 {
@@ -275,6 +273,100 @@ main .main__container a:hover
     grid-gap: 4rem;
     justify-content:center;
 }
+.blog__main
+{
+   width: 100%;
+   height: auto;
+}
+.blog__img
+{   
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    margin: 2rem 0;
+    
+}
+.blog__img figure
+{
+    margin: 0;
+    width: 95%;
+}
+.blog__img figure img
+{
+    width: 100%;
+    height: 100%;
+}
+.blog__main__container
+{
+    width: 100%;
+
+}
+.blog__main__container .blog__info__container
+{
+    width: 85%;
+    margin: 0 auto;
+}
+.blog__main__container .blog__info__container h3
+{
+    font-size:2rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid #e0e3e8;
+}
+.blog__info__container article
+{  
+    
+}
+.blog__info__container article h1
+{
+    font-size: 3rem;
+}
+
+.blog__info__container article p
+{
+    font-size: 1.5rem;
+    font-weight: 520;
+    text-align:justify; 
+}
+.contact__main
+{
+    background-color:#e6e9ed;
+    height: auto;
+    width: 100%;
+}
+.contact__main .contact__main__container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,300px));
+    grid-auto-rows: 200px;
+    align-items: center;
+    place-content: center;
+}
+.contact__main__container .contact__card
+{   
+    display: flex;
+    
+    gap: 1rem;
+}
+.contact__main__container img
+{
+    width: 96px;
+    height: 96px;
+}
+.contact__main__container .contact__card a
+{
+    font-size: 1.7rem;
+    padding-bottom: .3rem;
+    border-bottom: 1px solid #000;
+}
+.contact__main__container .contact__card p
+{
+    font-size: 1.5rem;
+}
+.contact__card .contact__texto
+{
+    margin-top:auto;
+}
+
 footer
 {
     display: flex;
