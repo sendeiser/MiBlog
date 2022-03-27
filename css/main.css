@@ -270,7 +270,7 @@ main .main__container a:hover
 .grid__container__post
 {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(280px,360px));
+    grid-template-columns: repeat(auto-fill,minmax(280px,330px));
     grid-auto-rows: auto;
     grid-gap: 4rem;
     justify-content:center;
