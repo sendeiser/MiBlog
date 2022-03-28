@@ -201,6 +201,7 @@ main .main__container a:hover
 {
     object-fit: cover;
     width: 100%;
+    border-radius: 50%;
 }
 .blogs__news__info__container
 {
@@ -312,10 +313,7 @@ main .main__container a:hover
     padding-bottom: 1.2rem;
     border-bottom: 1px solid #e0e3e8;
 }
-.blog__info__container article
-{  
-    
-}
+
 .blog__info__container article h1
 {
     font-size: 3rem;
@@ -366,7 +364,42 @@ main .main__container a:hover
 {
     margin-top:auto;
 }
-
+.blogs__news__container-perfil
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,380px));
+    grid-gap: 3rem;
+    padding-top: 4rem;
+}
+.proyects__post
+{
+    text-align: center;
+}
+.proyects__post h1
+{
+    font-size: 2rem;
+}
+.proyects__post p
+{
+    text-align: justify;
+}
+.grid__container__post-perfil
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,260px));
+    grid-auto-rows: auto;
+    grid-gap: 4rem;
+    justify-content: center;
+}
+.contact-color
+{
+    background-color:#4e3de9
+}
+.contact-color .contact__card a
+{ 
+    color:#fff;
+    border-bottom: 1px solid #fff;
+}
 footer
 {
     display: flex;
